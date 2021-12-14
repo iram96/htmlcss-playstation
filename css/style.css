@@ -58,3 +58,34 @@ header {
 #console .row.list img {
   max-width: 150px;
 }
+
+/* jumbotakes2 */
+#jumbotakes2 {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+/* new-games */
+#new-games {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+#new-games .row img {
+  max-width: 150px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* explore */
+#explore {
+  background-color: white;
+}
+
+/* playstation-plus */
+#play-plus {
+  background-color: #bebcbb;
+}
