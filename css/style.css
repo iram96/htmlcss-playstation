@@ -37,21 +37,24 @@ header {
 /* games */
 .returnal {
   height: 100px;
+  max-width: 200px;
   background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
+  margin: 10px auto;
 }
 
 .randc {
   height: 100px;
+  max-width: 200px;
   background-image: url("../img/ratchet-and-clank-rift-apart-keyart.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
-  margin-bottom: 0.5rem;
+  margin: 10px auto;
 }
 
 /* console */
@@ -88,4 +91,34 @@ header {
 /* playstation-plus */
 #play-plus {
   background-color: #bebcbb;
+}
+
+/* playstation-now */
+#play-now {
+  background-color: #161c3b;
+}
+
+/* social */
+@media screen and (min-width: 576px) {
+  #social .row {
+    max-width: 576px;
+    margin: 0 auto;
+  }
+}
+
+/* footer */
+footer {
+  background-color: #00439c;
+}
+
+[src*="play_logo"] {
+  filter: brightness(0) invert(1);
+  width: 100px;
+  height: 100px;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
 }
