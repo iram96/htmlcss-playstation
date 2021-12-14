@@ -13,15 +13,55 @@ img {
   max-width: 100%;
 }
 
+/* header */
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 }
+.nav-item.scegli:hover ul {
+  display: block;
+}
+
+header .navbar-collapse .search .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+[src*="lens"] {
+  width: 30px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
+
+.sony-banner {
+  min-height: 30px;
+  z-index: 1;
+}
 
 #sony {
-  max-width: 100px;
+  height: 40px;
+  width: 100px;
+  align-self: flex-end;
+  position: absolute;
+  right: 0;
 }
 
 /* jumbotron */
@@ -112,9 +152,9 @@ footer {
   min-height: 200px;
 }
 
-[src*="play_logo"] {
-  filter: brightness(0) invert(1);
-  width: 100px;
+[src*="play_logo"],
+[src*="ps-footer"] {
+  min-width: 100px;
   height: 100px;
 }
 
@@ -126,4 +166,9 @@ footer {
 
 #btnGroupDrop1:active #country-list {
   display: block;
+}
+
+#sie {
+  width: 150px;
+  height: auto;
 }

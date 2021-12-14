@@ -16,7 +16,7 @@
     <header>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 align-items-end bg-dark">
+            <div class="col-12 bg-dark position-relative sony-banner">
               <div id="sony">
                 <img src="img/sony_logo.svg" alt="Sony">
 
@@ -26,21 +26,18 @@
 
             <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <a class="navbar-brand" href="#">
+                    <img src="img/play_logo.svg" alt="">
+                  </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent late-nav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                      
+                      <li class="nav-item dropdown scegli">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Giochi
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">Action</a></li>
@@ -49,14 +46,83 @@
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                      <li class="nav-item dropdown scegli">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Hardware
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                       </li>
+                      <li class="nav-item dropdown scegli">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servizi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown scegli">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Novit&aacute;
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown scegli">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Fai Acquisti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown scegli">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Supporto
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div class="d-flex search">
+
+                      <div class="nav-item dropdown scegli ">
+                        <a class="fs-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          My PLaystation
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+
+                      <button type="button" class="btn btn-outline-dark rounded-pill ">Accedi</button>
+                      
+                        
+                    <img class="ms-3"src="img/lens.svg" alt="">
+                      
+                    </div>
                   </div>
                 </div>
               </nav>
@@ -81,7 +147,7 @@
     <!--! GAMES -->
     <div id="games">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row py-2">
           <div class="col-6 col-sm-4 col-lg-2"> 
             <div class="returnal">
               
@@ -119,13 +185,13 @@
     <!--! CONSOLE -->
     <div id="console">
       <div class="container-fluid" >
-        <div class="card-body text-center">
+        <div class="card-body text-center py-5">
           <span class="card-text">PLAY HAS NO LIMITS</span>
           <h2 class="card-title">Ecco la Playstation 5</h2>
           <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
          
         </div>
-        <div class="row">
+        <div class="row py-4">
           <div class="col-12 col-md-6">
             <div class="card-body text-center">
               <h2 class="card-title">Ecco la Playstation 5</h2>
@@ -138,7 +204,7 @@
             <img src="img/playstation-5-thumb.png" alt="">
           </div>
         </div>
-        <div class="row list">
+        <div class="row list py-4">
           <div class="col-4 col-md">
             <img src="img/playstation-5-thumb.png" alt="play-station">
           </div>
@@ -175,10 +241,10 @@
     </div>
     <!--! NEW-GAMES -->
     <div id="new-games">
-      <div class="container-fluid">
+      <div class="container-fluid py-4">
         <h2>Nuove Uscite</h2>
         <span>Giochi incredibili per Ps4 e Ps5 displonibili ORA</span>
-        <div class="row">
+        <div class="row py-5">
           <div class="col-6 col-sm-4 col-xl-2 text-center ">
             <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
@@ -241,11 +307,11 @@
     <!--! EXPLORE -->
     <div id="explore">
       <div class="container">
-        <div class="card-body text-center">
+        <div class="card-body text-center py-5">
           <h2 class="card-title">Esplora Playstation 4</h2>
           <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
         </div>
-        <div class="row">
+        <div class="row py-4">
           <div class="col-12 col-md">
             <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
             <div class="card-body text-center">
@@ -286,8 +352,8 @@
     <!--! PLAY-PLUS -->
     <div id="play-plus">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
+        <div class="row ">
+          <div class="col-12 col-md-6 py-4">
             <img src="img/ps-plus-logo.png" alt="">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident corporis, aperiam perspiciatis commodi iste accusantium ullam odit possimus quis ratione non reprehenderit, eaque culpa placeat nam ut necessitatibus numquam doloribus!</p>
             <button type="button" class="btn btn-primary">Primary</button>
@@ -302,18 +368,18 @@
     <!--! SALES -->
     <div id="sales">
       <div class="container">
-        <div class="card-body text-center">
+        <div class="card-body text-center py-5">
           <h2 class="card-title">Nuovi Sconti sul Playstation Store</h2>
           <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
         </div>
-        <div class="row">
-          <div class="col-12 col-md">
+        <div class="row p-3">
+          <div class="col-12 col-md mb-3">
             <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
           </div>
-          <div class="col-12 col-md">
+          <div class="col-12 col-md mb-3">
             <img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
           </div>
-          <div class="col-12 col-md">
+          <div class="col-12 col-md mb-3">
             <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
           </div>
         </div>
@@ -325,7 +391,7 @@
     <div id="play-now">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 text-white">
+          <div class="col-12 col-md-6 text-white py-4">
             <img src="img/ps-now-logo-two-column.png" alt="">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident corporis, aperiam perspiciatis commodi iste accusantium ullam odit possimus quis ratione non reprehenderit, eaque culpa placeat nam ut necessitatibus numquam doloribus!</p>
             <button type="button" class="btn btn-primary">Primary</button>
@@ -339,19 +405,19 @@
     </div>
     <!--! SOCIAL -->
     <div id="social">
-      <div class="container text-center">
+      <div class="container text-center py-5">
         <h3>Seguici sui social media</h3>
-        <div class="row justify-content-center">
-          <div class="col-6 col-sm-3 col-md-3">
+        <div class="row justify-content-center py-5">
+          <div class="col-6 col-sm-3 col-md-3 mb-3">
             <img src="img/twitter.jpg" alt="">
           </div>
-          <div class="col-6 col-sm-3 col-md-3">
+          <div class="col-6 col-sm-3 col-md-3 mb-3">
             <img src="img/facebook.jpg" alt="">
           </div>
-          <div class="col-6 col-sm-3 col-md-3">
+          <div class="col-6 col-sm-3 col-md-3 mb-3">
             <img src="img/instagram.jpg" alt="">
           </div>
-          <div class="col-6 col-sm-3 col-md-3">
+          <div class="col-6 col-sm-3 col-md-3 mb-3">
             <img src="img/youtube.png" alt="">
           </div>
         </div>
@@ -362,11 +428,11 @@
     <!--! FOOTER -->
     <footer>
       <div class="container">
-        <div class="row">
+        <div class="row py-4">
           <div class="col-12 col-lg-6">
             <div class="position-relative">
-              <img src="img/play_logo.svg" alt="">
-              <span id="copyright" class="text-white ">&copy;</span>
+              <img src="img/ps-footer.svg" alt="">
+              <span id="copyright" class="text-white "></span>
               <div class="btn-group">
                 <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
@@ -447,6 +513,15 @@
               </div>
 
             </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure id="sie">
+
+              <img src="img/sie-logo.svg" alt="">
+            </figure>
+            <span class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ad, numquam voluptatum distinctio a magni in magnam! Magnam perspiciatis cum vero eligendi iure similique at eum optio nulla? Eaque, dignissimos?
+              
+            </span>
           </div>
         </div>
         
