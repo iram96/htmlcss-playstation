@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#sony {
+  max-width: 100px;
+}
+
+/* jumbotron */
+#jumbotron {
+  margin-top: 100px;
+  background-image: url("../img/jumbo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+/* games */
+.returnal {
+  height: 100px;
+  background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+
+.randc {
+  height: 100px;
+  background-image: url("../img/ratchet-and-clank-rift-apart-keyart.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  margin-bottom: 0.5rem;
+}
+
+/* console */
+#console .row.list img {
+  max-width: 150px;
+}
