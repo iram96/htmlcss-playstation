@@ -117,10 +117,10 @@
                         </ul>
                       </div>
 
-                      <button type="button" class="btn btn-outline-dark rounded-pill ">Accedi</button>
+                      <button type="button" class="btn btn-boxshadow btn-outline-dark rounded-pill text-white bg-dark">Accedi</button>
                       
                         
-                    <img class="ms-3"src="img/lens.svg" alt="">
+                    <img class="ms-3 curs-pointer"src="img/lens.svg" alt="">
                       
                     </div>
                   </div>
@@ -132,13 +132,17 @@
     </header>
     <!--! JUMBOTRON -->
     <div id="jumbotron">
-      <div class="container">
-        <div class="row">
-          <div class="col">
+      <div class="container h-100">
+        <div class="row h-100 align-items-end py-5">
+          <div class="col-12 col-lg-4 align-items-end text-white">
             <img src="img/returnal-hero-banner-logo.png" alt="">
             <h2>Rompi il cerchio</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius alias maiores possimus, culpa officiis pariatur doloremque, placeat amet sequi atque magni magnam iste veritatis temporibus exercitationem sit rem esse beatae.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <div class="position-relative overline-container button-acquista ">
+              <div class="btn rounded-pill buy-now-btn overline-button-dark transition0-5s "></div>
+              <button type="button" class="btn rounded-pill buy-now-btn">Acquista</button>
+
+            </div>
           </div>
         </div>
 
@@ -147,33 +151,33 @@
     <!--! GAMES -->
     <div id="games">
       <div class="container-fluid">
-        <div class="row py-2">
-          <div class="col-6 col-sm-4 col-lg-2"> 
+        <div class="row py-5">
+          <div class="col-6 col-sm-4 curs-pointer position-relative col-lg-2"> 
             <div class="returnal">
               
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2">
+          <div class="col-6 col-sm-4 curs-pointer position-relative col-lg-2">
             <div class="randc">
               
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2">
+          <div class="col-6 col-sm-4 curs-pointer position-relative col-lg-2">
             <div class="returnal">
               
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2">
+          <div class="col-6 col-sm-4 curs-pointer position-relative col-lg-2">
             <div class="randc">
               
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2">
+          <div class="col-6 col-sm-4 curs-pointer position-relative col-lg-2">
             <div class="returnal">
               
             </div>
           </div>
-          <div class="col-6 col-sm-4 col-lg-2">
+          <div class="col-6 col-sm-4 curs-pointer position-relative col-lg-2">
             <div class="randc">
               
             </div>
@@ -184,41 +188,56 @@
     </div>
     <!--! CONSOLE -->
     <div id="console">
-      <div class="container-fluid" >
+      <div class="container-fluid " >
         <div class="card-body text-center py-5">
-          <span class="card-text">PLAY HAS NO LIMITS</span>
+          <span class="card-text text-primary">PLAY HAS NO LIMITS</span>
           <h2 class="card-title">Ecco la Playstation 5</h2>
           <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
          
         </div>
-        <div class="row py-4">
+        <div class="row py-4 align-items-lg-center">
           <div class="col-12 col-md-6">
-            <div class="card-body text-center">
-              <h2 class="card-title">Ecco la Playstation 5</h2>
-              <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
-              <button type="button" class="btn btn-primary">Primary</button>
+            
+              <h2 class="card-title my-2">Ecco la Playstation 5</h2>
+              <h5 class="card-subtitle my-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
+              <!-- <button type="button" class="my-2 btn btn-boxshadow btn-primary rounded-pill ">Maggiori Informazioni</button> -->
+              <div class="position-relative overline-container button-maginfo w-100">
+                <div class="btn rounded-pill overline-button-white transition0-5s "></div>
+                <button type="button" class="btn rounded-pill btn-primary">Maggiori Informazioni</button>
+  
+              </div>
              
-            </div>
+            
           </div>
           <div class="col-12 col-md-6">
             <img src="img/playstation-5-thumb.png" alt="">
           </div>
         </div>
         <div class="row list py-4">
-          <div class="col-4 col-md">
+          <div class="col-4 col-md position-relative text-center curs-pointer">
             <img src="img/playstation-5-thumb.png" alt="play-station">
+            <span class="d-none d-lg-block  ">Console PS5</span>
+            <div class="border-blue-hover"></div>
           </div>
-          <div class="col-4 col-md">
+          <div class="col-4 col-md position-relative text-center curs-pointer">
             <img src="img/joypad-thumb.png" alt="joypad">
+            <span class="d-none d-lg-block  ">Controller Wireless DualSense&trade;</span>
+            <div class="border-blue-hover"></div>
           </div>
-          <div class="col-4 col-md">
-            <img src="img/headset-thumb.png" alt="">
+          <div class="col-4 col-md position-relative text-center py-3 curs-pointer">
+            <img src="img/headset-thumb.png" alt="headset">
+            <span class="d-none d-lg-block  ">Cuffie Wireless con microfono PULSE 3&trade;</span>
+            <div class="border-blue-hover"></div>
           </div>
-          <div class="col-4 col-md">
-            <img src="img/remote-thumb.png" alt="">
+          <div class="col-4 col-md position-relative text-center curs-pointer">
+            <img src="img/remote-thumb.png" alt="remote">
+            <span class="d-none d-lg-block  ">Telecomando Media</span>
+            <div class="border-blue-hover"></div>
           </div>
-          <div class="col-4 col-md">
-            <img src="img/camera-thumb.jpg" alt="">
+          <div class="col-4 col-md position-relative text-center curs-pointer">
+            <img src="img/camera-thumb.jpg" alt="camera">
+            <span class="d-none d-lg-block  ">Camera HD</span>
+            <div class="border-blue-hover"></div>
           </div>
 
         </div>
@@ -227,16 +246,20 @@
     </div>
     <!--! JUMBOTRON-B -->
     <div id="jumbotakes2">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="img/it-takes-two-logo.png " alt="">
-            <h2>Un'avventuare cooperativa selvaggia ti attende</h2>
+      <div class="container h-100">
+        <div class="row h-100 align-items-end py-5">
+          <div class="col-12 col-lg-4 align-items-end text-white">
+            <img src="img/it-takes-two-logo.png" alt="">
+            <h2>Rompi il cerchio</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius alias maiores possimus, culpa officiis pariatur doloremque, placeat amet sequi atque magni magnam iste veritatis temporibus exercitationem sit rem esse beatae.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <div class="position-relative overline-container button-acquista">
+              <div class="btn rounded-pill buy-now-btn overline-button-dark "></div>
+              <button type="button" class="btn rounded-pill buy-now-btn">Acquista</button>
+
+            </div>
           </div>
         </div>
-        
+
       </div>
     </div>
     <!--! NEW-GAMES -->
@@ -245,58 +268,58 @@
         <h2>Nuove Uscite</h2>
         <span>Giochi incredibili per Ps4 e Ps5 displonibili ORA</span>
         <div class="row py-5">
-          <div class="col-6 col-sm-4 col-xl-2 text-center ">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center transition0-1s">
+            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="transition0-5s" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
   
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="transition0-5s"alt="">
             <h5>Crash Bandicoot 4: It's about time</h5>
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="transition0-5s" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
   
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="transition0-5s"alt="">
             <h5>Crash Bandicoot 4: It's about time</h5>
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="transition0-5s" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
   
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="transition0-5s"alt="">
             <h5>Crash Bandicoot 4: It's about time</h5>
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="transition0-5s" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
   
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="transition0-5s"alt="">
             <h5>Crash Bandicoot 4: It's about time</h5>
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="transition0-5s" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
   
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="transition0-5s"alt="">
             <h5>Crash Bandicoot 4: It's about time</h5>
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="transition0-5s" alt="">
             <h5>Tony Hawks&trade; Pro Skater&trade; 1 + 2</h5>
   
           </div>
-          <div class="col-6 col-sm-4 col-xl-2 text-center">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+          <div class="col-6 col-sm-4 col-xl-2 text-center curs-pointer">
+            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="transition0-5s"  alt="">
             <h5>Crash Bandicoot 4: It's about time</h5>
           </div>
         </div>
@@ -314,30 +337,44 @@
         <div class="row py-4">
           <div class="col-12 col-md">
             <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
-            <div class="card-body text-center">
+            <div class="card-body">
               <h2 class="card-title">Ecco la Playstation 5</h2>
               <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
-              <button type="button" class="btn btn-primary">Primary</button>
+              <div class="position-relative overline-container button-sdp">
+                <div class="btn rounded-pill overline-button-white transition0-5s "></div>
+                <button type="button" class="btn rounded-pill btn-primary">Scopri di pi&uacute;</button>
+  
+              </div>
                
             </div>
 
           </div>
           <div class="col-12 col-md">
             <img src="img/double11-202010-tw-psvr.jpg" alt="">
-            <div class="card-body text-center">
+            <div class="card-body">
               <h2 class="card-title">Ecco la Playstation 5</h2>
               <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
-              <button type="button" class="btn btn-primary">Primary</button>
+              <div class="position-relative overline-container button-sdp">
+                <div class="btn rounded-pill overline-button-white transition0-5s "></div>
+                <button type="button" class="btn rounded-pill btn-primary">Scopri di pi&uacute;</button>
+  
+              </div>
+               
                
             </div>
 
           </div>
           <div class="col-12 col-md">
             <img src="img/dualshock-4-listing-thumb.jpg" alt="">
-            <div class="card-body text-center">
+            <div class="card-body">
               <h2 class="card-title">Ecco la Playstation 5</h2>
               <h5 class="card-subtitle mb-2 text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate </h5>
-              <button type="button" class="btn btn-primary">Primary</button>
+              <div class="position-relative overline-container button-sdp">
+                <div class="btn rounded-pill overline-button-white transition0-5s "></div>
+                <button type="button" class="btn rounded-pill btn-primary">Scopri di pi&uacute;</button>
+  
+              </div>
+               
                
             </div>
           </div>
@@ -356,7 +393,7 @@
           <div class="col-12 col-md-6 py-4">
             <img src="img/ps-plus-logo.png" alt="">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident corporis, aperiam perspiciatis commodi iste accusantium ullam odit possimus quis ratione non reprehenderit, eaque culpa placeat nam ut necessitatibus numquam doloribus!</p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="bg-lightgray btn btn-boxshadow btn-outline-primary rounded-pill border-0">Esplora Playstation Plus</button>
           </div>
           <div class="d-none col-md-6 d-md-flex">
             <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
@@ -394,7 +431,8 @@
           <div class="col-12 col-md-6 text-white py-4">
             <img src="img/ps-now-logo-two-column.png" alt="">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident corporis, aperiam perspiciatis commodi iste accusantium ullam odit possimus quis ratione non reprehenderit, eaque culpa placeat nam ut necessitatibus numquam doloribus!</p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-boxshadow btn-outline-dark rounded-pill bg-white ">Esplora Playstation Now</button>
+            
           </div>
           <div class="d-none col-md-6 d-md-flex">
             <img src="img/ps-now-april-featured-image-block.png" alt="">
@@ -408,17 +446,17 @@
       <div class="container text-center py-5">
         <h3>Seguici sui social media</h3>
         <div class="row justify-content-center py-5">
-          <div class="col-6 col-sm-3 col-md-3 mb-3">
-            <img src="img/twitter.jpg" alt="">
+          <div class="col-6 col-sm-3 col-md-3 mb-3 curs-pointer">
+            <img src="img/twitter.jpg" class="rounded-circle transition0-5s" alt="">
           </div>
-          <div class="col-6 col-sm-3 col-md-3 mb-3">
-            <img src="img/facebook.jpg" alt="">
+          <div class="col-6 col-sm-3 col-md-3 mb-3 curs-pointer">
+            <img src="img/facebook.jpg" class="rounded-circle transition0-5s" alt="">
           </div>
-          <div class="col-6 col-sm-3 col-md-3 mb-3">
-            <img src="img/instagram.jpg" alt="">
+          <div class="col-6 col-sm-3 col-md-3 mb-3 curs-pointer">
+            <img src="img/instagram.jpg" class="rounded-circle transition0-5s" alt="">
           </div>
-          <div class="col-6 col-sm-3 col-md-3 mb-3">
-            <img src="img/youtube.png" alt="">
+          <div class="col-6 col-sm-3 col-md-3 mb-3 curs-pointer">
+            <img src="img/youtube.png" class="rounded-circle transition0-5s" alt="">
           </div>
         </div>
 
@@ -431,17 +469,38 @@
         <div class="row py-4">
           <div class="col-12 col-lg-6">
             <div class="position-relative">
-              <img src="img/ps-footer.svg" alt="">
-              <span id="copyright" class="text-white "></span>
-              <div class="btn-group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </button>
-                <ul id="country-list" class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                </ul>
+              <img src="img/ps-footer.svg" class="d-block" alt="">
+              <div class="country-select">
+                <img src="img/language-globe.svg" class="align-middle d-inline-block" alt="globe">
+                
+                <!-- <div class="nav-item dropdown scegli ">
+                  <a class="fs-5 nav-link dropdown-toggle text-white d-inline-block" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Country / Region
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div> -->
+                
+                <div class="nav-item dropdown d-inline-block py-5 align-middle scegli">
+                  <a class="fs-5 nav-link dropdown-toggle text-white p-0 px-2" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Country / Region
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Italy</a></li>
+                    <li><a class="dropdown-item" href="#">Germany</a></li>
+                    <li><a class="dropdown-item" href="#">France</a></li>
+                    <li><a class="dropdown-item" href="#">Spain</a></li>
+                    <li><a class="dropdown-item" href="#">U.S.A.</a></li>
+                    <li><a class="dropdown-item" href="#">Russia</a></li>
+                    
+                  </ul>
+                </div>
               </div>
+              
             </div>
           </div>
 
@@ -514,6 +573,7 @@
 
             </div>
           </div>
+
           <div class="col-12 col-lg-6">
             <figure id="sie">
 
