@@ -73,6 +73,32 @@ header .navbar-collapse .search .nav-link {
   right: 0;
 }
 
+.accordion-flush .accordion-item {
+  display: inline-block;
+}
+.accordion-button {
+  background-color: white;
+}
+
+.accordion-collapse {
+  position: absolute;
+  top: 151px;
+  width: 100vw;
+  background-color: white;
+}
+
+.play-icon:hover [src*="play-menu-ico"] {
+  box-shadow: 0 0 10px 0.2rem black;
+}
+
+.model {
+  opacity: 0.5;
+}
+.play-icon:hover .model {
+  display: block;
+  opacity: 1;
+}
+
 /* jumbotron */
 #jumbotron {
   margin-top: 156px;
